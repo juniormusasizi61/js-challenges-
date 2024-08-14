@@ -1,7 +1,5 @@
 function singleNumber(nums) {
-    let single = 0;
-
-    // XOR all the numbers in the array
+    let single = 0
     for (let num of nums) {
         single ^= num; // XOR the current number with the result
     }
