@@ -11,8 +11,6 @@ function containsDuplicate(nums) {
         // Otherwise, add the number to the set
         seen.add(num);
     }
-
-    // If no duplicates were found, return false
     return false;
 }
 
@@ -20,5 +18,5 @@ function containsDuplicate(nums) {
 const nums1 = [1, 2, 3, 4, 5];
 const nums2 = [1, 2, 3, 4, 1];
 
-console.log(containsDuplicate(nums1)); // Output: false
-console.log(containsDuplicate(nums2)); // Output: true
+console.log(containsDuplicate(nums1))
+console.log(containsDuplicate(nums2)); 
