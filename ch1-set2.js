@@ -6,7 +6,7 @@ function Arrays(arr) {
         chars: []   // Array to hold sorted single-character strings
     };
 
-    // Iterate over each element in the input array
+    // Iterate over each element 
     for (let item of arr) {
         // Check if the item is a number
         if (typeof item === 'number') {
@@ -49,8 +49,6 @@ function Arrays(arr) {
     bubbleSort(result.odds);
     // Sort the chars array using bubble sort
     bubbleSort(result.chars);
-
-    // Return the final object containing the sorted arrays
     return result;
 }
 
