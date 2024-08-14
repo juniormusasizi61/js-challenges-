@@ -54,9 +54,6 @@ function Arrays(arr) {
     return result;
 }
 
-// Example usage of the function
 const array = [7, 'b', 2, 9.5, 4, 'a', 'c', 3, 8, 6];
 
-// Output the result to the console
 console.log(Arrays(array));
-// Expected Output: { evens: [2, 4, 6, 8], odds: [3, 7], chars: ['a', 'b', 'c'] }
