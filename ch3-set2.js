@@ -20,5 +20,5 @@ function majorityElement(nums) {
 const nums1 = [3, 2, 3];
 const nums2 = [2, 2, 1, 1, 1, 2, 2];
 
-console.log(majorityElement(nums1)); // Output: 3
-console.log(majorityElement(nums2)); // Output: 2
+console.log(majorityElement(nums1));
+console.log(majorityElement(nums2)); 
